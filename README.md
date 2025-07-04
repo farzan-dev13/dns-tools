@@ -12,10 +12,13 @@ A simple Bash-based DNS record checker script for sysadmins, DevOps engineers, a
 
 ## ⚙️ Requirements
 
-- Linux or macOS system
+- Linux or macOS system  
 - `dig` command installed
 
-### Install `dig`:
+---
+
+## 📦 Install `dig`
+
 ```bash
 # Debian / Ubuntu
 sudo apt install dnsutils
@@ -25,18 +28,33 @@ sudo yum install bind-utils
 
 # Alpine
 apk add bind-tools
+```
+
+---
 
 ## 🚀 Usage
+
+```bash
 chmod +x dns-check.sh
 ./dns-check.sh domain.com
+```
 
-## Example
+---
+
+## 📌 Example
+
+```bash
 ./dns-check.sh gmail.com
+```
 
-## 📌 Output
+---
 
+## 🧾 Output
+
+```text
 🔍 Checking DNS records for: gmail.com
 ------------------------------------
+
 📌 A record:
 142.250.180.69
 
@@ -49,15 +67,17 @@ ns2.google.com.
 
 📌 TXT record:
 "v=spf1 include:_spf.google.com ~all"
-...
 
 ✅ SPF record:
 "v=spf1 include:_spf.google.com ~all"
 
 ✅ DKIM (selector: default):
 (no response or depends on the domain)
-------------------------------------
-##📄 License
+```
+
+---
+
+## 📄 License
 
 Licensed under the MIT License.
 
@@ -77,8 +97,3 @@ Licensed under the MIT License.
 Pull requests are welcome!  
 If you have suggestions for improvements or bug fixes, feel free to fork the repo and submit a PR.  
 Please ensure your code is clean and documented.
-
----
-
-
-
