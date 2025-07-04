@@ -57,6 +57,28 @@ ns2.google.com.
 ✅ DKIM (selector: default):
 (no response or depends on the domain)
 ------------------------------------
-## 📄 License
+##📄 License
 
 Licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+
+**Farzan Afringan**  
+[GitHub Profile](https://github.com/farzan-dev13)  
+[Website](https://afringan.com)  
+[Bio](https://biography.afringan.com)
+
+---
+
+## 🤝 Contributions
+
+Pull requests are welcome!  
+If you have suggestions for improvements or bug fixes, feel free to fork the repo and submit a PR.  
+Please ensure your code is clean and documented.
+
+---
+
+
+
